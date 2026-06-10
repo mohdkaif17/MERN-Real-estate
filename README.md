@@ -1,16 +1,21 @@
-# React + Vite
+# Real Estate Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Real Estate web application that enables users to browse, add, update, and manage property listings efficiently. The project implements complete CRUD (Create, Read, Update, Delete) operations with a responsive and user-friendly interface.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Create, view, update, and delete property listings.
+* Search and filter properties based on different criteria.
+* Property details page with images and descriptions.
+* Responsive design for desktop and mobile devices.
+* Secure backend APIs for data management.
+* User-friendly interface for seamless property browsing and management.
 
-## React Compiler
+### Tech Stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+* Frontend: React.js, HTML, CSS, JavaScript
+* Backend: Node.js, Express.js
+* Database: MongoDB
+* Additional Tools: REST APIs, Axios, JWT Authentication
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project demonstrates full-stack development concepts and efficient implementation of CRUD operations for a modern real estate platform.
